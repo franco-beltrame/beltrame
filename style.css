@@ -1,0 +1,162 @@
+/* reseteo de margenes  */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+.container-fluid {
+    background-color: #eab028;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-nav {font-size: larger;
+    font-weight:bold;  
+}
+
+header #logosuperior img {max-height: 100px;}
+  
+
+    
+/* body */
+
+main {
+    padding: 20px;
+}
+     
+h1 { text-align: center;
+font-weight: 800;}
+h2 { text-align: center;}
+h3 {text-decoration: none;}
+
+
+
+#portada-conteiner {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto auto;
+gap: 20px;
+}
+
+
+.foto1 {width: 100%;
+height: auto;}
+.foto2 {width: 100%;
+height: auto;}
+.foto3 {width: 100%;
+height: auto;}
+
+.inferiorbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+main section p { 
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+/* Nosotros  */
+
+#nosotros-conteiner {background-color: black;}
+.nosotros-titulo {color: #eab028;}
+
+.casa { 
+    width: 100%;
+}
+
+.historia {
+    text-align: justify;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 20px;
+    color: #eab028;
+
+}
+
+/* Carousel */
+
+.carousel {margin: 20px auto;
+max-width: 80%;       
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+/* Ubicacion */
+
+#ubicacion-conteiner {
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.mapa {display: flex;
+justify-content: center; }
+
+.ubicacion p {text-align: center;
+color: #eab028;
+}
+
+.titulo-ubicacion { color:#eab028 ;}
+
+
+/* Contacto */
+
+#contacto-conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+  
+
+}
+
+.whatsapp {
+ padding: 40px;
+ background-color:#eab028;
+ border: 4px black solid;
+}
+
+
+.instagram{
+    padding: 40px;
+    background-color: #eab028;
+    border: 4px black solid;
+}
+
+.email {
+    padding: 40px;
+    background-color: #eab028;
+    border: 4px black solid;
+}
+
+/* PIE DE PAGINAA */
+
+footer {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding: 20px;
+
+}
+
+footer #informacion {font-size: small;}
+
+footer #logo img { max-height: 100px}
