@@ -1,0 +1,22 @@
+/* Estilo del HEADER */
+
+
+.container-fluid {
+    background-color: map-get($map: $paleta-colores, $key:color-fondo1);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navbar-nav {
+    font-size: larger;
+    font-weight: bold;
+    font-family: map-get($map: $fuente, $key:menu);
+}
+
+
+header {
+    #logosuperior {
+        img {max-height: 100px;}
+    }
+}

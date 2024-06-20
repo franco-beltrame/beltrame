@@ -1,0 +1,50 @@
+/* Estilo main */
+
+main {
+    padding: 20px;
+}
+     
+h1 { 
+    text-align: center;
+    font-weight: 800;
+    font-family: map-get($map: $fuente, $key:titulo);
+}
+
+
+
+#portada-conteiner {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto auto;
+gap: 20px;
+}
+
+
+.foto1 {width: 100%;
+height: auto;}
+.foto2 {width: 100%;
+height: auto;}
+.foto3 {width: 100%;
+height: auto;}
+
+.inferiorbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    width: 100%;
+    height: auto;
+    
+
+}
+
+
+main {
+    section p {
+    text-align: center;
+    font-weight: 500;
+    font-size: $fuente-subtitulo;
+    font-family: map-get($map: $fuente, $key:parrafo);
+    
+ }
+}

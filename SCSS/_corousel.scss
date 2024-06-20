@@ -1,0 +1,11 @@
+/* Estilo de Carousel */
+
+.carousel {
+    margin: 20px auto;
+    max-width: 80%;       
+}
+    
+.carousel-inner img {
+    max-height: 400px 200px;
+    object-fit: cover;
+}

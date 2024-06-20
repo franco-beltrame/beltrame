@@ -1,0 +1,184 @@
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* reseteo de margenes  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del HEADER */
+.container-fluid {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-nav {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;";
+}
+
+header #logosuperior img {
+  max-height: 100px;
+}
+
+/* Estilo main */
+main {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+}
+
+#portada-conteiner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.foto1 {
+  width: 100%;
+  height: auto;
+}
+
+.foto2 {
+  width: 100%;
+  height: auto;
+}
+
+.foto3 {
+  width: 100%;
+  height: auto;
+}
+
+.inferiorbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+}
+
+main section p {
+  text-align: center;
+  font-weight: 500;
+  font-size: x-large;
+  font-family: "nunito";
+}
+
+/* NOSOTROS */
+#nosotros-conteiner {
+  background-color: black;
+}
+
+.nosotros-titulo {
+  color: orange;
+}
+
+.casa {
+  width: 100%;
+}
+
+.historia {
+  text-align: justify;
+  font-weight: 500;
+  font-size: x-large;
+  padding: 20px;
+  color: orange;
+}
+
+/* Estilo de Carousel */
+.carousel {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+.carousel-inner img {
+  max-height: 400px 200px;
+  object-fit: cover;
+}
+
+/* Estilo de ubicacion */
+#ubicacion-conteiner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.ubicacion p {
+  text-align: center;
+  color: #eab028;
+}
+
+.titulo-ubicacion {
+  color: orange;
+}
+
+/* Contacto */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#contacto-conteiner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+
+.whatsapp {
+  padding: 60px;
+  background-color: orange;
+  border: 4px black solid;
+}
+
+.instagram {
+  padding: 60px;
+  background-color: orange;
+  border: 4px black solid;
+}
+
+.email {
+  padding: 60px;
+  background-color: orange;
+  border: 4px black solid;
+}
+
+/* PIE DE PAGINAA */
+.footer-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+footer #informacion {
+  font-size: small;
+}
+
+footer #logo img {
+  max-height: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

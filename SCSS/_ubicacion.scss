@@ -1,0 +1,19 @@
+/* Estilo de ubicacion */
+
+#ubicacion-conteiner {
+    display:flex;
+    flex-direction: column;
+    background-color: map-get($map: $paleta-colores, $key:color-fondo2);
+}
+
+.mapa {
+ display: flex;
+ justify-content: center; 
+}
+
+.ubicacion p {
+text-align: center;
+color: #eab028;
+}
+
+.titulo-ubicacion {color:map-get($map: $paleta-colores, $key:color-texto2)};
