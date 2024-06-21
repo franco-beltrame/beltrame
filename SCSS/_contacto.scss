@@ -1,4 +1,4 @@
-/* Contacto */
+/* Estilo de Contacto */
 @import "_extend";
 
 #contacto-conteiner {
@@ -13,21 +13,25 @@
 }
 
 .whatsapp {
- padding: 60px;
- background-color: map-get($paleta-colores, $key:color-fondo1);
- border: 4px black solid;
+ @extend .box;
 }
 
-
-.instagram{
-    padding: 60px;
-    background-color: map-get($paleta-colores, $key:color-fondo1);
-    border: 4px black solid;
+.instagram {
+    @extend .box;
 }
 
 .email {
-    padding: 60px;
-    background-color: map-get($paleta-colores, $key:color-fondo1);
-    border: 4px black solid;
+    @extend .box;
+}
+
+.whatsapp:hover { background-color: black;
+color: orange}
+
+.instagram:hover { background-color: black;
+    color: orange
+}
+
+.email:hover { background-color: black;
+    color: orange
 }
 

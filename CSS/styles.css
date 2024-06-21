@@ -1,8 +1,8 @@
-.box {
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 5px;
+.box, .email, .instagram, .whatsapp {
+  padding: 60px;
+  background-color: orange;
+  border: 4px black solid;
+  cursor: pointer;
 }
 
 /* reseteo de margenes  */
@@ -129,12 +129,12 @@ main section p {
   color: orange;
 }
 
-/* Contacto */
-.box {
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 5px;
+/* Estilo de Contacto */
+.box, .email, .instagram, .whatsapp {
+  padding: 60px;
+  background-color: orange;
+  border: 4px black solid;
+  cursor: pointer;
 }
 
 #contacto-conteiner {
@@ -147,22 +147,19 @@ main section p {
   padding-top: 100px;
 }
 
-.whatsapp {
-  padding: 60px;
-  background-color: orange;
-  border: 4px black solid;
+.whatsapp:hover {
+  background-color: black;
+  color: orange;
 }
 
-.instagram {
-  padding: 60px;
-  background-color: orange;
-  border: 4px black solid;
+.instagram:hover {
+  background-color: black;
+  color: orange;
 }
 
-.email {
-  padding: 60px;
-  background-color: orange;
-  border: 4px black solid;
+.email:hover {
+  background-color: black;
+  color: orange;
 }
 
 /* PIE DE PAGINAA */

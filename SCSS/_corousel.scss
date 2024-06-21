@@ -5,7 +5,8 @@
     max-width: 80%;       
 }
     
-.carousel-inner img {
+.carousel-inner {
+ img {
     max-height: 400px 200px;
-    object-fit: cover;
+    object-fit: cover;}
 }
