@@ -1,10 +1,11 @@
 /* Estilo del HEADER */
 
-
 .container-fluid {
-    background-color: map-get($map: $paleta-colores, $key:color-fondo1);
+    background-color: map-get($map: $paleta-colores, $key:color-fondo2);
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -12,11 +13,20 @@
     font-size: larger;
     font-weight: bold;
     font-family: map-get($map: $fuente, $key:menu);
+    
 }
 
+.nav-link {
+    color: #808080;}
 
-header {
+.nav-link:hover {
+    color: orange;}
+
+.header-conteiner {
     #logosuperior {
         img {max-height: 100px;}
     }
 }
+
+.navbar-toggler-icon {color: gray;}
+.navbar-toggler {color:orange;}

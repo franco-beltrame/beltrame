@@ -13,13 +13,13 @@
 </head>
 
 <body>
-  <header conteiner>
+  <header>
+   <section class="header-conteiner">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
          <section id="logosuperior">
-          <a href="../index.html">
-          <img src="../multimedia/logo.png">
+          <a href="../index.html"> <img src="../multimedia/logo.png" alt="imagen del logo"> </a>
          </section>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,8 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
@@ -47,37 +46,52 @@
         </div>
       </nav>
 
-
+   </section>
 
   </header>
 
 
-  <!--ACA VA EL TITULO  -->
-  <H1>CONTACTO</H1>
+ <!--ACA VA EL TITULO  -->
 
-  <!-- ACA VA LOS DATOS DE CONTACTO CON EL SIMBOLO QUE CORRESPONDE  -->
+  <section id="contacto-conteiner">
+    <H1>C O N T A C T O</H1>
 
-  <section id="contacto-conteiner"> 
-    <section class="whatsapp"> 
-     <h2> 2804-260314</h2>
-    </section>
+   <!-- ACA VA LOS DATOS DE CONTACTO CON EL SIMBOLO QUE CORRESPONDE  -->
  
-    <section class="instagram">
-     <h2> oasisgym_spa</h2>
+    <form action="form.php" method="post">
+      <ul>
+        <li>
+         <label for="name">Nombre:</label>
+         <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+         <label for="mail">Correo electrónico:</label>
+         <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+         <label for="msg">Mensaje:</label>
+         <textarea id="msg" name="user_message"></textarea>
+        </li>
+      </ul>
+        <li class="button">
+         <button type="submit">Enviar mensaje</button>
+        </li>
+    </form>
+  
+    <section class="redes">
+
+     <a href="https://wa.link/imkgxm"> <img src="../multimedia/whatsapp.png" alt="icono de whatsapp" class="whatsapp"></a>
+     <a href="https://www.instagram.com/oasis_gymspa/"> <img src="../multimedia/instagram.png" alt="icono de instagram" class="instagram"></a>
+
     </section>
 
-    <section class="email">
-     <h2> oasisgymspa@gmail.com</h2>
-    </section>
-    
   </section>
-
+ 
   <!-- ACA VA EL LOGO Y LOS DATOS DE DIRECCION, TELEFONO Y HORARIOS -->
   <footer>
     <section class="footer-conteiner">
       <section id="logo">
-        <a href="../index.html">
-        <img src="../multimedia/logo.png" alt="imagen del logo">
+        <a href="../index.html"> <img src="../multimedia/logo.png" alt="imagen del logo"> </a>
       </section>
   
       <section id="informacion"> 

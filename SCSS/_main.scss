@@ -2,12 +2,14 @@
 
 main {
     padding: 20px;
-}
+    background-color: map-get($map: $paleta-colores, $key:color-fondo2 );}
+
      
 h1 { 
     text-align: center;
     font-weight: 800;
     font-family: map-get($map: $fuente, $key:titulo);
+    color: map-get($map: $paleta-colores, $key:color-texto3);
 }
 
 
@@ -18,6 +20,7 @@ grid-template-columns: 1fr;
 grid-template-rows: auto auto;
 gap: 20px;
 }
+
 
 
 .foto1 {width: 100%;
@@ -45,6 +48,7 @@ main {
     font-weight: 500;
     font-size: $fuente-subtitulo;
     font-family: map-get($map: $fuente, $key:parrafo);
+    color:map-get($map: $paleta-colores, $key:color-texto3 )
     
  }
 }
