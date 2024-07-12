@@ -1,4 +1,6 @@
 #instalaciones-conteiner { 
+    display:flex;
+    flex-direction: column;
     background-color: map-get($map: $paleta-colores, $key:color-fondo2 );
 }
 

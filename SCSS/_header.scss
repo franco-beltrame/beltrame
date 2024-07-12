@@ -1,11 +1,16 @@
 /* Estilo del HEADER */
 
+class\=“navbar navbar-expand-lg bg-body-tertiary p-0”
+
+
+
 .container-fluid {
-    background-color: map-get($map: $paleta-colores, $key:color-fondo2);
+    
     display: flex;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+   
 
 }
 
@@ -13,6 +18,7 @@
     font-size: larger;
     font-weight: bold;
     font-family: map-get($map: $fuente, $key:menu);
+    
     
 }
 
@@ -28,5 +34,8 @@
     }
 }
 
+
 .navbar-toggler-icon {color: gray;}
 .navbar-toggler {color:orange;}
+
+
