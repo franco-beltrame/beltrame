@@ -46,9 +46,15 @@ main {
     section p {
     text-align: center;
     font-weight: 500;
+    padding-top: 20px;
     font-size: $fuente-subtitulo;
     font-family: map-get($map: $fuente, $key:parrafo);
     color:map-get($map: $paleta-colores, $key:color-texto3 )
     
  }
 }
+
+@media (max-width: 600px) {
+    .inferiorbody {
+        grid-template-columns: 1fr;
+        gap: 10px;}}

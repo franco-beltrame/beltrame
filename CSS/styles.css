@@ -91,11 +91,18 @@ h1 {
 main section p {
   text-align: center;
   font-weight: 500;
+  padding-top: 20px;
   font-size: x-large;
   font-family: "nunito";
   color: grey;
 }
 
+@media (max-width: 600px) {
+  .inferiorbody {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
 /* NOSOTROS */
 #nosotros-conteiner {
   background-color: black;
@@ -171,18 +178,14 @@ main section p {
 
 form {
   margin: 0 auto;
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   padding: 1em;
   border: 2px solid #ccc;
   border-radius: 1em;
   background-color: orange;
 }
 
-@media only screen and (max-width: 400px) {
-  form {
-    width: 200px;
-  }
-}
 ul {
   list-style: none;
   padding: 0;
@@ -202,7 +205,7 @@ label {
 input,
 textarea {
   font: 1em sans-serif;
-  width: 300px;
+  width: calc(100% - 110px); /* Ancho dinámico */
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -220,7 +223,6 @@ textarea {
 .button {
   padding-left: 90px;
   margin-left: 0.5em;
-  list-style: none;
 }
 
 .redes {
@@ -231,15 +233,38 @@ textarea {
   padding: 20px;
 }
 
-.form {
-  min-width: 300px;
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+  }
+  label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5em;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+  .button {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .redes {
+    margin: 2pc; /* Ajustar margen para pantallas pequeñas */
+    flex-direction: row; /* Cambiar dirección a columna */
+    align-items: center; /* Centrar elementos */
+    padding: 10px; /* Ajustar padding para pantallas pequeñas */
+  }
+  .box, .whatsapp, .instagram {
+    width: 50px;
+  }
 }
-
-/*@media (max-width:700ox) {
-    #contacto-conteiner {
-        flex-direction: column;
-
-}}*/
 /* PIE DE PAGINAA */
 .footer-conteiner {
   display: flex;
