@@ -10,6 +10,7 @@ h1 {
     font-weight: 800;
     font-family: map-get($map: $fuente, $key:titulo);
     color: map-get($map: $paleta-colores, $key:color-texto3);
+    padding-top: 10px;
 }
 
 
